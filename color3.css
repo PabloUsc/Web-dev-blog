@@ -1,0 +1,46 @@
+body{
+    background:url("/img/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rounded_login
+{
+    color: white;
+}
+
+.text-align-center
+{
+    color: white;
+}
+
+.Log_in
+{
+   
+   color:#3508fc !important;
+   background:  rgb(65, 255, 255);
+   border:2px solid rgb(6, 190, 214);
+   
+   transition: all 0.4s ease;
+   position: relative;
+}
+
+.Log_in:hover
+{
+    box-shadow: inset 0 0 20px rgb(122, 216, 253), 20px rgb(186, 143, 255);
+    outline-color: rgba rgb(65, 255, 255);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border:2px solid rgb(247, 19, 255);
+    background: rgb(176, 26, 245);
+    color:#fff !important;
+}
+.rounded_login{
+    align-items: center;
+    width:400px;
+    height: 450px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    color: gray;
+    font-weight: 500;
+    border-radius: 10px;
+}
